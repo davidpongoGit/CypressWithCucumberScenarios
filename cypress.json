@@ -1,6 +1,6 @@
 {
   "testFiles": "**/*.feature",
-  "baseUrl": "https://www.saucedemo.com",
+  "baseUrl": "http://uitestingplayground.com/home",
   "viewportWidth": 1280,
   "viewportHeight": 960,
   "defaultCommandTimeout": 8000,
