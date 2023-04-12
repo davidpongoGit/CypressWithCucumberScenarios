@@ -1,5 +1,3 @@
-# CypressWithCucumberScenarios
-
 Summary:
 I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the test website. I have also installed and configured various open-source plugins including Cucumber Pre-procesor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. 
 
