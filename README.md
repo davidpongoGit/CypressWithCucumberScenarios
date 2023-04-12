@@ -1,7 +1,7 @@
 Summary:
 I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the example test website. I have also installed and configured various open-source plugins including Cucumber Preprocessor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. 
 
-I am using https://www.saucedemo.com/ as the public example test website. I've built the Automation Framework for that website. 
+I am using http://uitestingplayground.com/ as the public example test website. I've built the Automation Framework for that website. 
 
 Software Used: Git Bash, IntelliJ IDE Ultimate<br>
 Stack: JavaScript, NODE.js v16.14.2, NPM v9.6.4, Chocolatey 1.1, Python 3.1.1, VS19 Build Tool (Part of of NODE)<br>
