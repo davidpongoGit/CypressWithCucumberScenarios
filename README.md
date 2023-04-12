@@ -4,7 +4,7 @@ I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelli
 I am using https://www.saucedemo.com/ as the public example test website. I've built the Automation Framework for that website. 
 
 Software Used: Git Bash, IntelliJ IDE Ultimate<br>
-Stack: JavaScript, NODE.js v16.14.2, NPM v8.5.0, Chocolatey 1.1, Python 3.1.1, VS19 Build Tool (Part of of NODE)<br>
+Stack: JavaScript, NODE.js v16.14.2, NPM v9.6.4, Chocolatey 1.1, Python 3.1.1, VS19 Build Tool (Part of of NODE)<br>
 IDE Plugins used for IDE (Optional): Cypress Support (Mikhail Bolotov), Gherkin, Cucumber.js, Cucumber +, Rainbow Backets. <br>
 Open-Source Libraries used for Automation: Cypress@9.7.0, Cypress-Cucumber-Preprocessor@4.3.1, Cypress-If@1.10.2<br>
 
