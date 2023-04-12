@@ -1,5 +1,5 @@
 {
-  "testFiles": "**/*.*",
+  "testFiles": "**/*.feature",
   "baseUrl": "https://www.saucedemo.com/",
   "viewportWidth": 1280,
   "viewportHeight": 960,
