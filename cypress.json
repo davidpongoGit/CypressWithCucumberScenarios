@@ -1,15 +1,16 @@
 {
   "testFiles": "**/*.feature",
-  "baseUrl": "https://www.saucedemo.com/",
+  "baseUrl": "https://www.saucedemo.com",
   "viewportWidth": 1280,
   "viewportHeight": 960,
   "defaultCommandTimeout": 8000,
-  "responseTimeout": 120000,
+  "responseTimeout": 12000,
   "trashAssetsBeforeRuns": true,
   "video": false,
   "screenshotOnRunFailure": true,
   "retries": {
     "runMode": 2,
     "openMode": 0
-  }
+  },
+  "chromeWebSecurity": false
 }
