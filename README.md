@@ -1,10 +1,12 @@
 Summary:
-I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the example test website. I have also installed and configured various open-source plugins including Cucumber Pre-procesor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. 
+I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the example test website. I have also installed and configured various open-source plugins including Cucumber Preprocessor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. 
 
 I am using https://www.saucedemo.com/ as the public example test website. I've built the Automation Framework for that website. 
 
+Software Used: Git Bash, IntelliJ IDE Ultimate
+Stack: JavaScript, NODE.js v16.14.2, NPM v8.5.0
+IDE Plugins used for IDE (Optional): Cypress Support (Mikhail Bolotov), Gherkin, Cucumber.js, Cucumber +, Rainbow Backets. 
+Open-Source Libraries used for Automation: Cypress@9.7.0, Cypress-Cucumber-Preprocessor@4.3.1, Cypress-If@1.10.2
+
 Version of Cypress: 
 I am using an older version of Cypress because the developers of Cucumber plugin did not updated the plugin to be compatible with the latest generation of Cypress at the time of me installing the plugin. 
-
-
-
