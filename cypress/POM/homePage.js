@@ -17,5 +17,8 @@ class homePage{
     get hiddenLayersPage(){
         return cy.get('#overview > div > div:nth-child(1) > div:nth-child(3) > h3 > a').should('contain', 'Hidden Layers');
     }
+    get loadDelaysPage(){
+        return cy.get('#overview > div > div:nth-child(1) > div:nth-child(4) > h3 > a').should('contain', 'Load Delay');
+    }
 }
 export default new homePage();
