@@ -4,7 +4,8 @@
   "description": "demo of cypress automation",
   "main": "index.js",
   "scripts": {
-    "cypress-ui": "cypress open"
+    "cypress-ui": "cypress open",
+    "all-tests": "cypress run"
   },
   "repository": {
     "type": "git",
