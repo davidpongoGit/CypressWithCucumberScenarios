@@ -10,3 +10,11 @@ Open-Source Libraries used for Automation: Cypress@9.7.0, Cypress-Cucumber-Prepr
 
 Version of Cypress:<br>
 I am using an older version of Cypress because the developers of Cucumber plugin did not updated the plugin to be compatible with the latest generation of Cypress at the time of me installing the plugin. 
+
+HOW TO RUN THE TESTS:<br>
+1. Install IntelliJ or any other modern IDE
+2. Download and install NODE.js
+3. Open my repository in your IDE
+4. In terminal, run the following code: npm install
+5. To open Cypress, run the following code: npm run cypress-ui
+6. To run all tests from CLI, run the follwoing code: npm run all-tests
