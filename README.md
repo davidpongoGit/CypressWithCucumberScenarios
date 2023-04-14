@@ -1,5 +1,5 @@
 Summary:
-I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the example test website. I have also installed and configured various open-source plugins including Cucumber Preprocessor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. Just to quickly demonstrate how I write automation in Cypress, I have done the first 4 exercices inluding building Page-Object Models. Everything is built from scratch by me.
+I've used Cypress test automation tool at v9.7.0 and created Page-Object Modelling library for the example test website. I have also installed and configured various open-source plugins including Cucumber Preprocessor to write my test cases with BDD/Agile oriented approach.  This demo acts as a showcase of my current automation skills and knowledge of automation architecture. Just to quickly demonstrate how I write automation in Cypress, I have done the first 4 exercices inluding building Page-Object Models. Everything is built from scratch by me. Inspect my code especially in the .spec.js files and read the comments to understand my reasoning and approach.
 
 I am using http://uitestingplayground.com/ as the public example test website. I've built the Automation Framework for that website. 
 
