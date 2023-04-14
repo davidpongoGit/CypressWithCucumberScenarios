@@ -11,13 +11,15 @@ Given ('Class Attribute Page is displayed', () => {
 })
 
 When ('I identify the blue button', () => {
-    classAttributePage.blueButton.should('be.visible');
+    classAttributePage.blueButton.should('be.visible'); //Check my Page-Object Model for my identification.
 })
 
 And ('I click the blue button', () => {
+    //I am setting up an even listener to keep checking the behaviour of the button its clicked.
     let spy = cy.spy(window, 'alert');
     classAttributePage.blueButton
         .click()
+        //After the click I am waiting for 1 second and then check there is alert made from the click event.
         .wait(1000)
         .then(() => {
             expect(spy).to.haveOwnProperty('callCount');
@@ -26,6 +28,7 @@ And ('I click the blue button', () => {
 })
 
 Then ('Pop up alert box is displayed', () => {
+    //Here I am checking that the pop-up box has the correct text written inside of it.
     cy.on('window:alert',(txt)=>{
         expect(txt).to.eq('Primary buttons pressed');
     })
