@@ -9,7 +9,7 @@ IDE Plugins used for IDE (Optional): Cypress Support (Mikhail Bolotov), Gherkin,
 Open-Source Libraries used for Automation: Cypress@9.7.0, Cypress-Cucumber-Preprocessor@4.3.1, Cypress-If@1.10.2<br>
 
 Version of Cypress:<br>
-I am using an older version of Cypress because the developers of Cucumber plugin did not updated the plugin to be compatible with the latest generation of Cypress at the time of me installing the plugin. 
+I am using an older version of Cypress because the developers of Cucumber plugin did not updated the plugin to be compatible with the latest generation of Cypress at the time of me installing the plugin. I actually enjoy using the latest version of Cypress more. 
 
 HOW TO RUN THE TESTS:<br>
 1. Install IntelliJ or any other modern IDE
