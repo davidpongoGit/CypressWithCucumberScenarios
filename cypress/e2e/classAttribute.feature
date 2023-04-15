@@ -7,6 +7,6 @@ Feature: Test to make sure that correct button is identified and alert box close
   Scenario: Identify the correct button, click it, confirm and close pop alert.
     Given Class Attribute Page is displayed
     When I identify the blue button
-    And I click the blue button
+    When I click the blue button
     Then Pop up alert box is displayed
-    And I confirm the alert box
+    Then I confirm the alert box

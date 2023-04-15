@@ -1,4 +1,4 @@
-import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps";
+import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
 import loadDelaysPage from "../../POM/loadDelaysPage";
 import homePage from "../../POM/homePage";
 

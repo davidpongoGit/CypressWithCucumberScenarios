@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/davidpongoGit/CypressWithCucumberScenariosJS#readme",
   "devDependencies": {
-    "cypress": "^9.7.0",
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^10.11.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-if": "^1.10.4"
   },

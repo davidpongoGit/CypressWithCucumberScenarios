@@ -1,4 +1,4 @@
-import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps";
+import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
 import classAttributePage from "../../POM/classAttributePage";
 import homePage from "../../POM/homePage";
 
@@ -14,7 +14,7 @@ When ('I identify the blue button', () => {
     classAttributePage.blueButton.should('be.visible'); //Check my Page-Object Model for my identification.
 })
 
-And ('I click the blue button', () => {
+When ('I click the blue button', () => {
     //I am setting up an even listener to keep checking the behaviour of the button its clicked.
     let spy = cy.spy(window, 'alert');
     classAttributePage.blueButton
@@ -34,6 +34,6 @@ Then ('Pop up alert box is displayed', () => {
     })
 })
 
-And ('I confirm the alert box', () => {
+Then ('I confirm the alert box', () => {
     cy.contains('OK').click();
 })

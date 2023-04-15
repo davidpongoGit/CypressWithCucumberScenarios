@@ -1,4 +1,4 @@
-import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps";
+import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
 import hiddenLayersPage from "../../POM/hiddenLayersPage";
 import homePage from "../../POM/homePage";
 
