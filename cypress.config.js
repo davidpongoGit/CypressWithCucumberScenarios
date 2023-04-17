@@ -21,6 +21,8 @@ module.exports = defineConfig({
       return config
     },
     "chromeWebSecurity": false,
-    "baseUrl": 'http://uitestingplayground.com/'
+    "baseUrl": 'http://uitestingplayground.com/',
+    "viewportWidth": 1280,
+    "viewportHeight": 1000,
   },
 });
