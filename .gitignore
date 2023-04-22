@@ -107,3 +107,23 @@ dist
 
 ./cypress/screenshots
 ./cypress/downloads
+./cypress/reports
+/cypress/reports/mochareports/assets/app.css
+/cypress/reports/mochareports/assets/app.js
+/cypress/reports/mochareports/assets/app.js.LICENSE.txt
+/cypress/reports/mochareports/assets/MaterialIcons-Regular.woff
+/cypress/reports/mochareports/assets/MaterialIcons-Regular.woff2
+/cypress/reports/mocha/mochawesome.json
+/cypress/reports/mocha/mochawesome_001.json
+/cypress/reports/mocha/mochawesome_002.json
+/cypress/reports/mocha/mochawesome_003.json
+/cypress/reports/mocha/mochawesome_004.json
+/cypress/reports/mochareports/report.html
+/cypress/reports/mochareports/report.json
+/cypress/reports/mochareports/assets/roboto-light-webfont.woff
+/cypress/reports/mochareports/assets/roboto-light-webfont.woff2
+/cypress/reports/mochareports/assets/roboto-medium-webfont.woff
+/cypress/reports/mochareports/assets/roboto-medium-webfont.woff2
+/cypress/reports/mochareports/assets/roboto-regular-webfont.woff
+/cypress/reports/mochareports/assets/roboto-regular-webfont.woff2
+

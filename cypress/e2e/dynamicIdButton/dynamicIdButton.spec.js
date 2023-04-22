@@ -14,11 +14,11 @@ When ('I identify the button', () => {
     dynamicIdPage.dynamicIdButton.should('be.visible'); //Identified via type with class name. Those are static.
 })
 
-And ('I click the button', () => {
+Then ('I click the button', () => {
     dynamicIdPage.dynamicIdButton.click();
 })
 
-And ('I refresh the page', () => {
+When ('I refresh the page', () => {
     cy.reload();
 })
 

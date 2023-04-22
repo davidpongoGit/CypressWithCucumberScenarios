@@ -1,9 +1,27 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
   e2e: {
-    // baseUrl: 'http://localhost:4200',
     specPattern: "**/*.feature",
+    "chromeWebSecurity": false,
+    "baseUrl": 'http://uitestingplayground.com/',
+    "viewportWidth": 1280,
+    "viewportHeight": 1000,
+    "video": false,
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "responseTimeout": 120000,
 
     // prefix async
     async setupNodeEvents(on, config) {
@@ -20,9 +38,5 @@ module.exports = defineConfig({
       // return any mods to Cypress
       return config
     },
-    "chromeWebSecurity": false,
-    "baseUrl": 'http://uitestingplayground.com/',
-    "viewportWidth": 1280,
-    "viewportHeight": 1000,
   },
 });

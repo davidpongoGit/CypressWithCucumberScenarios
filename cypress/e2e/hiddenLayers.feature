@@ -11,5 +11,5 @@ Feature: Test to make sure that we are not interacting with cached DOM
   Scenario: Click the button and then again but only if button colour is green
     Given Hidden Layers Page is displayed
     When I find the green button
-    And I click the green button
+    Then I click the green button
     Then I clicked the button again only if its green

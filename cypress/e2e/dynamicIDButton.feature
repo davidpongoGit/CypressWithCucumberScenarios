@@ -8,6 +8,6 @@ Feature: Test to make sure that ID is not used for button identification
     Scenario: Identify button, click it, refresh screen and click again
       Given Dynamic ID Page is displayed
       When I identify the button
-      And I click the button
-      And I refresh the page
+      Then I click the button
+      When I refresh the page
       Then Button can be clicked again using the same identification

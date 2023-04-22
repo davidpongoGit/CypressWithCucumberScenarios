@@ -9,7 +9,6 @@ Given ('Home page is displayed', () => {
 
 When ('I click on Load Delays page link', () => {
     //Code line 12 and 13 are setting up an API spy which comes back as a response when the page has loaded
-    cy.server();
     cy.intercept('http://uitestingplayground.com/loaddelay').as('pageFullyLoaded');
     //We click on the link to open the page
     homePage.loadDelaysPage.click();
@@ -22,6 +21,6 @@ Then ('I wait until the page loads', () => {
     loadDelaysPage.logo.should('be.visible');
 })
 
-And ('I click the button on that page', () => {
+Then ('I click the button on that page', () => {
     loadDelaysPage.buttonAppearingAfterDelays.click();
 })

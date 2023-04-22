@@ -14,7 +14,7 @@ When ('I find the green button', () => {
     hiddenLayersPage.greenButton.should('be.visible');
 })
 
-And ('I click the green button', () => {
+Then ('I click the green button', () => {
         hiddenLayersPage.greenButton.click();
 })
 

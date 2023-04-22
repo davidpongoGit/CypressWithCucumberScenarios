@@ -7,4 +7,4 @@ Feature: Test must be able to patiently wait for page loaded event from a browse
     Given Home page is displayed
     When I click on Load Delays page link
     Then I wait until the page loads
-    And I click the button on that page
+    Then I click the button on that page
