@@ -14,5 +14,5 @@ Then ('I am presented with several email addresses', () => {
 })
 
 Then ('I can select those email addresses', () => {
-    cy.contains(/erlich@/, {matchCase: true});
+    cy.contains(/bertram@/, {matchCase: true}).invoke('attr', 'style', 'color: red')
 })
