@@ -9,7 +9,7 @@ class classAttributePage{
         return cy.get('#navbarSupportedContent > ul > li:nth-child(2) > a').should('contain', 'Resources');
     }
     get blueButton(){
-        return cy.get('.class3');
+        return cy.get('.class2');
     }
 }
 export default new classAttributePage();

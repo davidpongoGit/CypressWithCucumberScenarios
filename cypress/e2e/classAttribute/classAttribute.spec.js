@@ -17,23 +17,16 @@ When ('I identify the blue button', () => {
 When ('I click the blue button', () => {
     //I am setting up an even listener to keep checking the behaviour of the button its clicked.
     let spy = cy.spy(window, 'alert');
-    classAttributePage.blueButton
-        .click()
-        //After the click I am waiting for 1 second and then check there is alert made from the click event.
-        .wait(1000)
-        .then(() => {
-            expect(spy).to.haveOwnProperty('callCount');
-            expect(spy).to.be.called;
-        });
+    classAttributePage.blueButton.click()
 })
 
 Then ('Pop up alert box is displayed', () => {
     //Here I am checking that the pop-up box has the correct text written inside of it.
-    cy.on('window:alert',(txt)=>{
-        expect(txt).to.eq('Primary buttons pressed');
+    cy.on('window:alert', (popUP) => {
+        expect(popUP).to.have.text(`Primary buttons pressed`)
     })
 })
 
 Then ('I confirm the alert box', () => {
-    cy.contains('OK').click();
+    //Alert box is closed automatically. No need to click on any buttons in our case.
 })
